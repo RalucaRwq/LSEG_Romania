@@ -50,6 +50,11 @@ def measure_duration(df):
                 status = 'warning'  # Job took longer than 5 minutes
             # Else mark it as empty
 
+        # Format start_time, end_time and duration to HH:MM:SS
+        start_time = str(start_time).split(' ')[-1]
+        end_time = str(end_time).split(' ')[-1] if end_time is not None else ''
+        duration = str(duration).split(' ')[-1] if end_time is not None else ''
+
         # Store duration and status in the dictionary
         durations_dict[pid] = {
             'job_description': job_description,
