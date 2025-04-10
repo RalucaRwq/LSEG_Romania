@@ -36,11 +36,11 @@ PID,job_description,start_time,end_time,duration,status
 34189,scheduled task 920,11:59:43,12:03:02,00:03:19,
 52532,background job tqc,12:00:03,12:13:56,00:13:53,error
 16168,scheduled task 773,12:02:39,12:02:55,00:00:16,
-72029,scheduled task 333,12:03:20,,None,
+72029,scheduled task 333,12:03:20,,,
 98746,scheduled task 746,12:04:18,12:11:35,00:07:17,warning
 23703,scheduled task 374,12:04:57,12:18:23,00:13:26,error
 62401,scheduled task 936,12:05:59,12:16:23,00:10:24,error
 81470,background job wiy,12:08:30,12:09:33,00:01:03,
 24482,scheduled task 672,12:10:38,12:19:14,00:08:36,warning
-72897,scheduled task 016,12:12:27,,None,
+72897,scheduled task 016,12:12:27,,,
 62922,scheduled task 531,12:14:20,12:15:09,00:00:49,
